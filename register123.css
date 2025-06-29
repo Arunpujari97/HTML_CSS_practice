@@ -1,0 +1,61 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30vh;
+    padding: 2px;
+}
+.programs{
+    text-align: center;
+    font-size: 28px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    backdrop-filter: blur(20px);
+}
+.programs h1{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.programs.div{
+    font-size: 22px;
+}
+.hedder{
+
+     
+     margin-top: 20px;
+     margin-right: 20px;
+     position:absolute;
+     top: 30px;
+     right: 10px;
+    
+
+}
+.hedder.pass{
+     margin-top: 10px;
+     margin-left: 10px;
+     top: 20px;
+     right: 10px;
+     border: none;
+     border-radius: 45px;
+     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+     transition: all 0.3s ease 0s;
+     cursor: pointer;
+     outline: none;
+    
+
+}
+.hedder p{
+    font-size: 32;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serifyav ;
+    color: brown;
+    margin-top:0px ;
+    margin-left: 0px;
+    top: 20px;
+    left:10px;
+
+}
