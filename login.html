@@ -1,30 +1,36 @@
 <html>
 <head>
-<title>login page</title>
-<link rel="stylesheet" href="login2.css">
+    <style>
+        body{
+            font-size: 20px;
+            text: size adjust 50px;
+            align-items: center;
+            display: flex;
+           justify-content: center;
+           height: 100vh;
+           background-color: #f4f4;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPmxapntbkg6VoqPiFxOe9o4chEueSsdtJyT12DwMUN5JoDs8KjXCrJYKbl4KwJFQuYE&usqp=CAU")no-repeat center center/cover;
+        }
+          .login_container{
+            transform-origin: 0ch;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(15, 12, 12, 0.1);
+            width: 300px;
+            text-align: center;
+
+        }
+    </style>
 </head>
-<body background="C:\Users\My PC\OneDrive\Desktop\html programs\samurai">
-     <div class="pujari">
-          <form action="">
-           <h1>login page</h1>
-             <div>
-                 <lable>Name :        </lable>
-                 <input type="text" placeholder="enter your name" required>
-              </div>
-             <div>
-                  <lable>password :</lable>
-                  <input type="password" placeholder="enter your password" required>
-             </div>
-             <div calss="rem">
-               <input type="checkbox">remind me?
-               <a href="#" class="for">forgot the password</a>
-            </div><br>
-          
-                  <button type="submit">log in</button>
-            <div>
-                  <p>don't have an account<a href="register.html"> Register</a></p>
-            </div>
-         </form>
-     </div>   
-</body>
+<body>
+    <div class="login_container">
+    <form action="dash_board.html" method="post">
+        <h1 style="font-size: 30px;">log_in page</h1>
+        Name : <input type="text" name="Name" placeholder="enter the name" required></input><br>
+        password : <input type="password" name="password" placeholder="enter the password" required></input><br>
+        <button type="submit">login</button>
+        <button type="reset"> clear</button>
+    </form>
+</div>
+<body>
 </html>

@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <style>
+        
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            /* background-image: url("data:image/png;base64,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")  no-repeat center center/cover; */
+            background-color: rgb(241, 203, 203); 
+
+            }
+              /* Sidebar */
+              .sidebar {
+            width: 250px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .sidebar ul li:hover{
+            background-color: red;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 250px; /* Adjust for sidebar width */
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background-color: white;
+            padding: 15px;
+            text-align: right;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .dashboard {
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+            margin-left: 260px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+    </head>
+    <body>
+        <div class="sidebar" >
+        <h2>dashboard</h2>
+        <ul>
+            <li>Home</li>
+            <li>contact</li>
+            <li>about</li>
+            <li>Settings</li>
+            <li>logOut</li>
+        </ul>
+        </div>
+        <div class="main_content">
+            <div class="header">
+                <strong>wellcome, user</strong>
+            </div>
+            <div class="dashboard">
+                <div class="card">👥 about user</div>
+                <div class="card">🎓education </div>
+                <div class="card">💼experiance </div>
+                <div class="card">📂projects </div><br>
+                <div class="card">💡skill</div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
